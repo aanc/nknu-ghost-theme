@@ -2,8 +2,22 @@
 // Styles
 //**
 
+img {
+    border: 0;
+    max-width: 100%;
+}
+
 .nknu-wrapper {
     width:100%;
-    max-width: 35em;
+    max-width: @readable_width + 2 * @add_padding;
     margin: 0 auto;
+}
+
+.nknu-header {
+    .HeaderColor;
+}
+ 
+.nknu-article {
+    .ArticleColor;
+    padding: @add_padding + 0em;
 }
