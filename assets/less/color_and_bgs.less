@@ -4,6 +4,7 @@
 
 .BodyColor () {
     background-color: @color_01;
+    background-image: url(../images/bodybg.png);
     color: @color_05;
 }
  
@@ -17,6 +18,7 @@
  
 .HeaderColor () {
     background-color: white;
+    border: 0.063rem solid darken(@color_01, 10%);
 }
  
 .ArticleColor () {
@@ -31,6 +33,7 @@
  
 .PostTitleColor () {
     background-color: @color_03;
+    background-image: url(../images/article-title-bg.jpg);
     color: white;
     a, a:link, a:visited {
         color: white;
@@ -38,5 +41,30 @@
     }
     a:hover, a:focus {
         color: @color_01;   
+    }
+}
+
+.DateColor () {
+    background-image: url(../images/bodybg.jpg);
+    border: 0.063rem solid darken(@color_01, 10%);
+    color: white;
+    .border-radius(@golden + 0em);
+    &:before {
+        content: '';
+        background-image: url(../images/bodybg.jpg);
+        width: 0.063rem;
+        position: absolute;
+        left: -0.063rem;
+        height: 0.25em;
+        top: @golden - 0.125em;
+    }
+    &:after {
+        content: '';
+        background-image: url(../images/bodybg.jpg);
+        width: 0.063rem;
+        position: absolute;
+        right: -0.063rem;
+        height: 0.25em;
+        top: @golden - 0.125em;
     }
 }

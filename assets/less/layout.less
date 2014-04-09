@@ -10,14 +10,27 @@ img {
 .nknu-wrapper {
     width:100%;
     max-width: @readable_width + 2 * @add_padding;
-    margin: 0 auto;
+    margin: 0.25em auto 0 auto;
+    padding-bottom: @add_padding / 2 + 0em;
 }
 
 .nknu-header {
     .HeaderColor;
+    text-align: center;
+    padding-top: 1.5 * @golden + 0em;
+    padding-bottom: 3 * @golden + 0em;
+    margin-bottom: 0.25em;
 }
  
 .nknu-article {
     .ArticleColor;
-    padding: @add_padding + 0em;
+    padding: 0 @add_padding + 0em @add_padding + 0em @add_padding + 0em;
+    margin-bottom: 0.25em;
+}
+
+.nknu-article-header {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 0;
 }
