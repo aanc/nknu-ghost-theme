@@ -62,7 +62,6 @@ img {
 
 .nknu-menu ul li {
     display: inline-block;
-    border-right: 2px #f00;
 }
 
 .nknu-menu ul li a {
@@ -78,4 +77,73 @@ img {
 
 .active {
     background-color: #f9f9f9;
+}
+
+.nknu-author {
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    display: table;
+    margin-bottom: 0.25em;
+    box-shadow: 1px 1px 7px #555;
+    list-style: none;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.nknu-author ul {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5em;
+    line-height: 15em;
+}
+
+.nknu-author ul li {
+    display: inline-block;
+}
+
+.nknu-author-image {
+    border: 0.063em solid black;
+    box-shadow: 1px 1px 7px #555;
+    float: left;
+    line-height: 0;
+    margin-left: @golden + 2em;
+    margin-right: @golden + 2em;
+    padding: 0.15em;
+    .border-radius(50%);
+    img {
+        .border-radius(50%);
+    }
+}
+
+.nknu-author-image img {
+    max-height: 8em;
+    max-width: 8em;
+}
+
+.nknu-share-buttons {
+    text-align: right;
+}
+
+.nknu-share-buttons a img {
+    width: 30px;
+    height: 30px;
+}
+
+.nknu-share-buttons a:hover, .nknu-share-buttons a {
+    text-decoration: none;
+}
+
+.nknu-footer {
+    text-align: center;
+}
+
+.nknu-pagination {
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 0.30em;
+}
+
+.older-post {
+    text-align: right;
 }
