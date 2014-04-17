@@ -7,13 +7,14 @@ Header and body background from Subtle Patterns: http://subtlepatterns.com/
 
 Roadmap
 
-* Basic theme
-* Basic styling
-* Menubar
-* Author block
-* Comments
+* ~~Basic theme~~
+* ~~Basic styling~~
+* ~~Menubar~~
+* ~~Author block~~
+* ~~Comments~~
 * Code refactoring/optimization
 * Responsiveness
+* Google authorship
 * More styling
 * ....
 
