@@ -8,7 +8,7 @@
 		<article class="nknu-article" role="article" itemscope itemtype="http://schema.org/Article">
 			<header class="nknu-article-header">
 				<time class="nknu-date" datetime="{{date format="YYY-MM-DD"}}" itemprop="datePublished">{{date format='dddd DD MMM YYYY'}}</time>
-				<h1 class="nknu-article-title" itemprop="headline"><a href="{{{url}}}" rel="bookmark">{{title}}</a></h1>
+				<h1 class="nknu-article-title" itemprop="headline"><a href="{{@blog.url}}{{{url}}}" rel="bookmark">{{title}}</a></h1>
 				{{> tagline}}
 			</header>
 			<div class="nknu-article-content" itemprop="articleBody">
