@@ -32,10 +32,9 @@ a:focus {
     outline: thin dotted;
 }
  
-a:active,
-a:hover {
+a:active, a:hover {
 	.LinkHoverColor;
-    outline: 0;
+  outline: 0;
 }
  
 // Classic typographic scale: if default 16px total size scale would be:
@@ -45,6 +44,26 @@ h1 {
   .HeaderFont;
   font-size: 3em;
   margin: 0.563em 0;
+}
+
+h1.nknu-article-title {
+  .PostTitleColor;
+  text-shadow: 1px 1px 7px @color_04;
+  font-weight: 700;
+  position: relative;
+  margin-top: 0.1rem;
+  margin-left: -@posttitle_overflow + 0rem;
+  margin-right: -@posttitle_overflow + 0rem;
+  padding: @golden / 2 + 0rem @posttitle_overflow + 0rem;
+}
+
+h1.nknu-blog-title, h1.nknu-blog-title a {
+    font-size: 4.5rem;
+    margin: 0;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 15px @color_04;
 }
  
 h2 {
@@ -64,6 +83,10 @@ h4 {
   font-size: 1.313em;
   margin: 1.313em 0;
 }
+
+h4.nknu-author-name {
+  margin: 0;
+}
  
 h5 {
   .HeaderFont;
@@ -77,40 +100,16 @@ h6 {
   margin: 0.75em 0;
 }
 
-h1.nknu-blog-title, h1.nknu-blog-title a {
-    font-size: 4.5rem;
-    margin: 0;
-    font-weight: 700;
-    text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 15px #555;
-}
- 
 p.nknu-blog-description, p.nknu-blog-description a {
     font-size: 1.313rem;
     margin: 0;
     text-decoration: none;
     color: white;
-    text-shadow: 1px 1px 7px #555;
-}
-
-h1.nknu-article-title {
-  .PostTitleColor;
-  text-shadow: 1px 1px 7px #555;
-  font-weight: 700;
-  position: relative;
-  margin-top: 0.1rem;
-  margin-left: -@posttitle_overflow + 0rem;
-  margin-right: -@posttitle_overflow + 0rem;
-  padding: @golden / 2 + 0rem @posttitle_overflow + 0rem;
+    text-shadow: 1px 1px 7px @color_04;
 }
 
 .nknu-article-content {
   text-align: justify;
-}
-
-h4.nknu-author-name {
-  margin: 0;
 }
 
 .nknu-date {

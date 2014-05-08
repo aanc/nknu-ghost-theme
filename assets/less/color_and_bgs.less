@@ -3,9 +3,9 @@
 //**
 
 .BodyColor () {
-    background-color: @color_01;
+    background-color: white;
     background-image: url(../images/blog-body-bg.png);
-    color: @color_05;
+    color: @color_04;
 }
  
 .LinkColor () {
@@ -50,26 +50,3 @@
     }
 }
 
-.DateColor () {
-    background-image: url(../images/bodybg.png);
-    color: @color_05;
-    .border-radius(@golden + 0em);
-    &:before {
-        content: '';
-        background-image: url(../images/bodybg.png);
-        width: 0.063rem;
-        position: absolute;
-        left: -0.063rem;
-        height: 0.25em;
-        top: @golden - 0.125em;
-    }
-    &:after {
-        content: '';
-        background-image: url(../images/bodybg.png);
-        width: 0.063rem;
-        position: absolute;
-        right: -0.063rem;
-        height: 0.25em;
-        top: @golden - 0.125em;
-    }
-}
