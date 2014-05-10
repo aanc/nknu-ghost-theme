@@ -3,6 +3,8 @@ http://webdesign.tutsplus.com/series/building-a-ghost-theme-from-scratch--webdes
 
 Header and body background from Subtle Patterns: http://subtlepatterns.com/
 
+Search functionnality provided by GhostHunter: https://github.com/i11ume/ghostHunter
+
 ---
 
 Roadmap
@@ -12,6 +14,7 @@ Roadmap
 * ~~Menubar~~
 * ~~Author block~~
 * ~~Comments~~
+* ~~Adding search field~~
 * Code refactoring/optimization
 * Responsiveness
 * Google authorship

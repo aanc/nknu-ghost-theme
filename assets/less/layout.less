@@ -14,14 +14,6 @@ img {
     padding-bottom: @add_padding / 2 + 0em;
 }
 
-.nknu-menu {
-    .MenuColor;
-    width: 100%;
-    height: 3em;
-    margin-bottom: 0.25em;
-    box-shadow: 1px 1px 7px @color_04;
-}
-
 .nknu-header {
     .HeaderColor;
     text-align: center;
@@ -51,14 +43,17 @@ img {
     text-align: center;
 }
 
-.nknu-menu {
-    margin: 0;
-    list-style: none;
-    display: table;
+.nknu-menu-area {
+    .MenuColor;
+    width: 100%;
+    height: 3em;
     margin-bottom: 0.25em;
+    box-shadow: 1px 1px 7px @color_04;
+    list-style: none;
+    display: block;
 }
 
-.nknu-menu ul {
+.nknu-menu-area ul {
     padding-top: 0;
     pagging-bottom: 0;
     padding-left: 4em;
@@ -66,11 +61,11 @@ img {
     line-height: 3em;
 }
 
-.nknu-menu ul li {
+.nknu-menu-area ul li {
     display: inline-block;
 }
 
-.nknu-menu ul li a {
+.nknu-menu-area ul li a {
     position: relative;
     padding: 10px 15px;
     text-decoration: none;
@@ -79,6 +74,17 @@ img {
 
 .nknu-menu li a:hover {
     text-decoration: none;
+}
+
+.nknu-menu {
+    display: block;
+    float: left;
+}
+
+.nknu-search-area {
+    display: block;
+    float: right;
+    padding-right: 3em;
 }
 
 .active {
@@ -154,7 +160,7 @@ img {
 
 .nknu-comments {
     margin: 0;
-    background-color: white;
+    background-color: @color_01;
     display: table;
     margin-bottom: 0.25em;
     box-shadow: 1px 1px 7px @color_04;
@@ -162,6 +168,30 @@ img {
     padding-bottom: 2em;
     padding-top: 2em;
     width: 100%;
+}
+
+.nknu-search-results {
+    background-color: @color_01;
+    margin-bottom: 0.25em;
+    box-shadow: 1px 1px 7px @color_04;
+    padding-left: 5em;
+}
+
+.nknu-search-results a h2 {
+    .HeaderFont;
+    font-size: 1.25em;
+}
+
+.nknu-search-results a h4 {
+    display: none;
+}
+
+#search-field {
+    padding: 5px 9px;
+    height: 1em;
+    border: 1px solid #a4c3ca;
+    border-radius: 0em 0em 0em 0em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
 }
 
 #disqus_thread {

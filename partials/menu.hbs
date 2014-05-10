@@ -1,7 +1,16 @@
-<div class='nknu-menu'>
-	<ul>
+<div class='nknu-menu-area'>
+	<ul class='nknu-menu'>
 		<li class='active'><a href='{{@blog.url}}'>Home</a></li>
 		<li><a href='{{@blog.url}}/about'>About/Contact</a></li>
 		<li><a href='{{@blog.url}}/work'>Work</a></li>
 	</ul>
+	<ul class='nknu-search-area'>
+		<li>
+			<form>
+				<input type="text" id="search-field" placeholder="Type here ..." />
+				<input type="submit" value="search">
+			</form>
+		</li>
+	</ul>
 </div>
+<section id="results" class="nknu-search-results"></section>

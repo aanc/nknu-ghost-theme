@@ -1,7 +1,6 @@
 {{!< default}}
 {{> header}}
 {{> menu}}
-{{> author}}
 
 <main class="nknu-main" role="main">
 	{{#foreach posts}}
@@ -24,5 +23,12 @@
 		{{/if}}
 	</div>
 </main>
+
+<script>
+$("#search-field").ghostHunter({
+  results   : "#results",
+  onKeyUp   : true
+});
+</script>
 
 {{> footer}}
