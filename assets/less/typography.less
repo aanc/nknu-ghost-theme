@@ -1,17 +1,18 @@
 //**
 // Mixins
+// @version 0.1-SNAPSHOT
 //**
- 
+
 .HeaderFont () {
     font-family: @header_font;
     line-height: 1.313em;
     font-weight: 700;
 }
- 
+
 //**
 // Styles
 //**
- 
+
 body {
 	.BodyColor;
     margin: 0;
@@ -19,24 +20,24 @@ body {
     line-height: @golden + 0em; //set the regular line height to the golden ratio
     font-weight: 300;
 }
- 
+
 a {
     background: transparent;
 }
- 
+
 a:link, a:visited {
 	.LinkColor;
 }
- 
+
 a:focus {
     outline: thin dotted;
 }
- 
+
 a:active, a:hover {
 	.LinkHoverColor;
   outline: 0;
 }
- 
+
 h1 {
   .HeaderFont;
   font-size: 3em;
@@ -62,19 +63,19 @@ h1.nknu-blog-title, h1.nknu-blog-title a {
     color: white;
     text-shadow: 1px 1px 15px @color_04;
 }
- 
+
 h2 {
   .HeaderFont;
   font-size: 2.25em;
   margin: 0.625em 0;
 }
- 
+
 h3 {
   .HeaderFont;
   font-size: 1.5em;
   margin: 1.313em 0;
 }
- 
+
 h4 {
   .HeaderFont;
   font-size: 1.313em;
@@ -84,13 +85,13 @@ h4 {
 h4.nknu-author-name {
   margin: 0;
 }
- 
+
 h5 {
   .HeaderFont;
   font-size: 1.125em;
   margin: 1.313em 0;
 }
- 
+
 h6 {
   .HeaderFont;
   font-size: 1em;
