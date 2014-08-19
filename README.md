@@ -31,4 +31,4 @@ Search functionnality provided by GhostHunter: https://github.com/i11ume/ghostHu
 * More styling
 * ....
 
-@version 1.0
+@version 1.1-SNAPSHOT
