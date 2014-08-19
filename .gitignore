@@ -1,3 +1,5 @@
+# @version 0.1-SNAPSHOT
+
 .DS_Store
 assets/.DS_Store
 partials/google-analytics.hbs

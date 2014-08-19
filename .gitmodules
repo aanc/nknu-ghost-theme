@@ -1,3 +1,5 @@
+# @version 0.1-SNAPSHOT
+
 [submodule "assets/js/ghostHunter"]
 	path = assets/js/ghostHunter
 	url = https://github.com/i11ume/ghostHunter/
