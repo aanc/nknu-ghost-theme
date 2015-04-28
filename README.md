@@ -11,11 +11,9 @@ Search functionnality provided by GhostHunter: https://github.com/i11ume/ghostHu
 
 ## Installation
 
-1. Clone this repo in your /content/themes folder (do a recursive clone as ghostHunter is declared as submodule: `git clone --recursive https://github.com/nwknu/nknu-ghost-theme`)
-2. Create a /content/themes/nknu-ghost-theme/partials/google-analytics.hbs, and put your analytics JS in this file if needed
-3. Restart Ghost
-4. Go to admin panel, and select the theme (it should be in your themes list)
-5. Apply the changes ...
+. Clone this repo in your /content/themes folder (do a recursive clone as ghostHunter is declared as submodule: `git clone --recursive https://github.com/nwknu/nknu-ghost-theme`)
+. Restart Ghost
+. Go to admin panel, select the theme in the list, save 
 
 ## Roadmap
 
