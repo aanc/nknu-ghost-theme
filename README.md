@@ -29,4 +29,4 @@ Search functionnality provided by GhostHunter: https://github.com/i11ume/ghostHu
 * More styling
 * ....
 
-@version 1.1-SNAPSHOT
+@version 1.1
